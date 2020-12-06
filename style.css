@@ -1,0 +1,62 @@
+body {
+    background-color: rgb(240, 236, 236);
+}
+.inputlar  input{
+       padding: 15px;
+       border-radius: 30px;
+       border: 1px solid black;
+       margin-left:10px ;
+}
+.inputlar {
+    width:600px;
+    text-align: center;
+    margin: auto;
+}
+.inputlar button {
+    display: block;
+    margin: auto;
+    text-align: center;
+    margin-top: 30px;
+    width: 20%;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 1px solid black;
+    font-size: 24px;
+}
+.kataklar {
+    width: 60%;
+    margin: auto;
+    border: 1px solid;
+    border-radius: 15px;
+}
+.kataklar div {
+    display: inline-block; 
+    width: 17%;
+     border:1px solid black;
+    background-color:white;
+    height: 80px;
+    margin-left: 2%;
+    margin-top: 5px;
+    font-size: 24px;
+    color: black;
+    border-radius: 20px;
+    text-align: center;
+    padding-top: 20px;
+}
+input,button:hover {
+    outline: none;
+}
+button:hover {
+    background-color: blue;
+    color: white;
+}
+input:hover{
+    border: 1px solid red;
+}
+.kataklar div:hover {
+    width: 17%;
+    border-radius: 50%;
+    background-color: rgb(91, 91, 231);
+    color: white;
+
+}
